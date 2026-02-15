@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #0012ff61;
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -8,17 +8,17 @@ body {
 
 
 .persona-card {
-    background: white;
+    background: #6f738ba6;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 6px 6px 10px 20px rgba(0, 0, 0, 0.405);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.405);
     max-width: 600px;
     text-align: center;
 }
 
 
 img {
-    width: 150px;
+    width: 250px;
     height: 150px;
     border-radius: 50%; /* Makes image circular */
     object-fit: cover; /* Prevents image stretching */
@@ -39,5 +39,7 @@ img {
 
 
 /* Add your own colors below based on your Vibe! */
-h1 { color: #089bfd; }
-h3 { color: #6b69a7; border-bottom: 2px solid #ddd; }
+h1 { color: #085afd;
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: #4000ce;}
+h3 { color: #41a6fc; border-bottom: 2px solid #8987ff; }
