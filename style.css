@@ -27,9 +27,11 @@ img {
 
 .details {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     text-align: left;
     margin-top: 20px;
+    padding: 0 20px;
 }
 
 
@@ -40,6 +42,9 @@ img {
 
 /* Add your own colors below based on your Vibe! */
 h1 { color: #085afd;
-    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #4000ce;}
-h3 { color: #41a6fc; border-bottom: 2px solid #8987ff; }
+h3 { color: #41a6fc;
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: #4000ce;
+    border-bottom: 2px solid #8987ff; }
